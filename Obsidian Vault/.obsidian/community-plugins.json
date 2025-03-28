@@ -1,7 +1,11 @@
 [
+  "advanced-canvas",
+  "obsidian-image-toolkit",
+  "dataview",
+  "obsidian-list-callouts",
+  "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-plantuml",
   "code-styler",
-  "execute-code",
-  "highlightr-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-markdown-formatting-assistant-plugin"
 ]
