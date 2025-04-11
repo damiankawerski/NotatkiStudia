@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Wykład 6.md",
+                "file": "InżynieriaOprogramowania/Laboratorium/Analiza.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wykład 6"
+              "title": "Analiza"
             }
           }
         ]
@@ -193,9 +193,13 @@
   },
   "active": "b7fa23d270bd889a",
   "lastOpenFiles": [
+    "InżynieriaOprogramowania/Wykład/Wykład 6.md",
+    "InżynieriaOprogramowania/Laboratorium/Analiza.md",
+    "InżynieriaOprogramowania/Laboratorium",
     "InżynieriaOprogramowania/Wykład/Wykład 5.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
+    "InżynieriaOprogramowania/Wykład/Untitled",
     "Rust/Wykład 6.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
     "Rust",
     "Zdjecia/Pasted image 20250331105737.png",
     "InżynieriaOprogramowania/Wykład/Wykład 4.md",
