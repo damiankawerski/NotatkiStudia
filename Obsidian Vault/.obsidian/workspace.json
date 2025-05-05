@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WstępDoSztucznejInteligencji/Laboratorium 3.md",
+                "file": "Notatki do prezentacji pierwszaków.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laboratorium 3"
+              "title": "Notatki do prezentacji pierwszaków"
+            }
+          },
+          {
+            "id": "0b1bf64d3f6c5c74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InżynieriaOprogramowania/Laboratorium/Analiza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Analiza"
+            }
+          },
+          {
+            "id": "63a355d0b2078d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InżynieriaOprogramowania/Wykład/Wykład 9.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wykład 9"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,29 +220,38 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b7fa23d270bd889a",
+  "active": "63a355d0b2078d7b",
   "lastOpenFiles": [
-    "Rust/Wykład 6.md",
+    "Zdjecia/Pasted image 20250505102723.png",
+    "Zdjecia/Pasted image 20250505102703.png",
+    "InżynieriaOprogramowania/Wykład/Wykład 8.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 9.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 7.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 6.md",
+    "Angielski.md",
+    "InżynieriaOprogramowania/Laboratorium/Zmiany w diagramie klas.md",
+    "Zdjecia/Pasted image 20250331105737.png",
+    "Notatki do prezentacji pierwszaków.md",
+    "Zdjecia/Pasted image 20250414110838.png",
+    "Zdjecia/Pasted image 20250414110821.png",
     "WstępDoSztucznejInteligencji/Laboratorium 3.md",
+    "InżynieriaOprogramowania/Laboratorium/Analiza.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 3.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 1.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 5.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 4.md",
+    "Rust/Wykład 6.md",
     "WstępDoSztucznejInteligencji/PracaDomowaLab3Zadanie3.xopp~",
     "WstępDoSztucznejInteligencji/PracaDomowaLab3Zadanie3.xopp",
     "Pliki/zajecia.xopp.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 7.md",
     "Pliki",
     "WstępDoSztucznejInteligencji/2025-04-09-Note-08-37.xopp",
     "WstępDoSztucznejInteligencji/2025-04-01-Note-12-40.xopp",
     "WstępDoSztucznejInteligencji",
-    "InżynieriaOprogramowania/Wykład/Wykład 3.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 4.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 6.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 5.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 1.md",
-    "InżynieriaOprogramowania/Laboratorium/Analiza.md",
     "InżynieriaOprogramowania/Laboratorium",
     "InżynieriaOprogramowania/Wykład/Untitled",
     "Rust",
-    "Zdjecia/Pasted image 20250331105737.png",
     "Excalidraw/Drawing 2025-03-31 10.34.52.excalidraw.md",
     "Excalidraw",
     "Zdjecia/Pasted image 20250331102412.png",
@@ -221,7 +259,6 @@
     "Pasted image 20250328020843.png",
     "Pasted image 20250328020728.png",
     "Pasted image 20250328020748.png",
-    "Notatki do prezentacji pierwszaków.md",
     "Untitled.canvas",
     "Bez nazwy.md",
     "Witaj.md",
