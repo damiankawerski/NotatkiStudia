@@ -1,7 +1,7 @@
-# Tutaj tytuł
+# SDLC, Metodyka
 
 ## SDLC
-![[Pasted image 20250505102723.png]]
+![[Pasted image 20250505104431.png]]
 
 --- 
 
@@ -17,4 +17,18 @@
     - zbieranie wymagań
     - projektowanie
     - implementacja
-- 
+
+## Proces biznesowy lub metoda biznesowa
+
+- Seria powiązanych ze sobą zadań lub działań które rozwiązują określony problem 
+
+**Wymagane cechy**
+- Definiowalność
+- Porządek
+- Klient
+- Zwiększenie wartości
+- Osadzenie
+- Wielofunkcyjność
+
+## Proces kaskadowy (model)
+![[Pasted image 20250505105730.png]]
