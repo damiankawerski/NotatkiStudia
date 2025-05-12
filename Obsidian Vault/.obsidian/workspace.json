@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "99ec8c34df31d1b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diagram UML"
+            }
+          },
+          {
             "id": "63a355d0b2078d7b",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,7 +235,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "0b1bf64d3f6c5c74",
+  "active": "99ec8c34df31d1b3",
   "lastOpenFiles": [
     "InżynieriaOprogramowania/Wykład/Wykład 10.md",
     "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",

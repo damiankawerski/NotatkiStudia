@@ -11,6 +11,7 @@ class UserInterface {
 	+login(): void
 	+showLoggedMenu(): void
 	+addMoney(): void
+	+getCarnetStatus(): void
 	+getCarnets(): void
 	+buyCarnet(): void
 	+extendCarnet(): void
@@ -36,11 +37,12 @@ class User {
 	-email: String
 	-password: String
 	-isTrainer: boolean
-	-balance: String
-	-carnet: Carnet
-	-calendar: Calendar
+	+balance: String
+	+carnet: Carnet
 
 	+User(username: String, email: String, password: String, isTrainer: boolean)
+	+getUsername(): String
+	+getPassword(): String
 }
 
 class Accounting {
@@ -49,11 +51,12 @@ class Accounting {
 
 	-Accounting()
 	+getInstance(): Accounting
-	+getCarnets(): ArrayList<String>
-	+addMoney(user: User): void
-	+buyCarnet(type: String, User user)
-	+extendCarnet(user: User)
-	+returnCarnet(user: User)
+	+getCarnets(): HashMap<String, Integer>
+	+addMoney(user: User, double amount): void
+	+getBalance(user: User): double
+	+buyCarnet(type: String, User user): Carnet
+	+extendCarnet(user: User): boolean
+	+returnCarnet(user: User): boolean
 }
 
 class Carnet {
@@ -64,7 +67,11 @@ class Carnet {
 
 	+Carnet(type: String, startTime: LocalDateTime, endTime: LocalDateTime)
 	+getStatus(): String
+	+isActive(): boolean
 	+updateStatus(): void
+	+getEndTime(): LocalDateTime
+	+setEndTime(): void
+	+getType(): String
 }
 
 interface CalendarTrainer {
@@ -73,8 +80,8 @@ interface CalendarTrainer {
 	+getUserClasses(user: User): ArrayList<Class>
 }
 
-interface MemberCalendar {
-	+registerToClass(user: User): boolean
+interface CalendarMember {
+	+registerToClass(user: User, classId: int): boolean
 	+getClasses(): ArrayList<Class>
 	+getUserClasses(user: User): ArrayList<Class>
 }
@@ -83,20 +90,20 @@ class Calendar {
 	-classes: ArrayList<Class>
 	-instance: Calendar
 
-	+addClass(class: Class): void
-	+registerToClass(user: User): boolean
+	+addClass(id: int, name: String, date: LocalDate, startTime: LocalTime, duration: int, maxSpaces: int, trainer: User): void
+	+registerToClass(user: User, classID: int): boolean
 	+getClasses(): ArrayList<Class>
 	+getUserClasses(user: User): ArrayList<Class>
 }
 
 class Class {
-	-id: int
+	+id: int
 	-name: String
 	-date: LocalDate
 	-startTime: LocalTime
 	-duration: int
 	-trainer: User
-	-members: ArrayList<User>
+	+members: ArrayList<User>
 
 	+Class(name: String, date: LocalDate, startTime: LocalTime, duration: int)
 	+getInfo(): String
@@ -117,4 +124,4 @@ Class --> User : trainer
 Class --> User : members *
 Calendar <|.. CalendarTrainer
 Calendar <|.. MemberCalendar
-```
+``
