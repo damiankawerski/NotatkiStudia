@@ -29,3 +29,15 @@ D:
 - 4. A
 - 5. A
 - 6. C
+
+---
+
+
+## Page 45
+
+Eco bus is cheapest option
+Eco bus is eco friendly 
+Eco bus has the fastest completition time
+Eco bus has the cheapest tickets
+Eco bus can use dedicated bus lanes
+Faster than car users
