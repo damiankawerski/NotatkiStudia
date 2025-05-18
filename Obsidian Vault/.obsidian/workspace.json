@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
+                "file": "InżynieriaOprogramowania/SkrótWykładow/Wykład 1-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagram UML"
+              "title": "Wykład 1-2"
             }
           },
           {
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Związki",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Szukaj"
+              "title": "Search"
             }
           },
           {
@@ -237,27 +237,34 @@
   },
   "active": "99ec8c34df31d1b3",
   "lastOpenFiles": [
-    "InżynieriaOprogramowania/Wykład/Wykład 10.md",
+    "InżynieriaOprogramowania/SkrótWykładow/Wykład 3-4.md",
+    "InżynieriaOprogramowania/SkrótWykładow/Wykład 1-2.md",
+    "Zdjecia/Pasted image 20250518221417.png",
+    "Zdjecia/Pasted image 20250518220723.png",
+    "InżynieriaOprogramowania/NotatkiDoEgzaminu.md",
+    "WstępDoSztucznejInteligencji/Laboratorium 3.md",
+    "Zdjecia/Pasted image 20250518220509.png",
+    "Zdjecia/Pasted image 20250518215148.png",
+    "Zdjecia/Pasted image 20250518215103.png",
+    "Zdjecia/Pasted image 20250518215031.png",
+    "Zdjecia/Pasted image 20250518214930.png",
+    "Zdjecia/Pasted image 20250518214710.png",
+    "Zdjecia/Pasted image 20250518214616.png",
+    "Zdjecia/Pasted image 20250518214111.png",
     "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 1.md",
+    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
+    "InżynieriaOprogramowania/SkrótWykładow",
+    "InżynieriaOprogramowania/Wykład/Wykład 10.md",
     "InżynieriaOprogramowania/Wykład/Wykład 9.md",
     "InżynieriaOprogramowania/Wykład/Wykład 8.md",
     "Angielski.md",
     "InżynieriaOprogramowania/Laboratorium/Analiza.md",
-    "Zdjecia/Pasted image 20250505105730.png",
-    "Zdjecia/Pasted image 20250505104431.png",
-    "Zdjecia/Pasted image 20250505102723.png",
-    "Zdjecia/Pasted image 20250505102703.png",
     "InżynieriaOprogramowania/Wykład/Wykład 7.md",
     "InżynieriaOprogramowania/Wykład/Wykład 6.md",
     "InżynieriaOprogramowania/Laboratorium/Zmiany w diagramie klas.md",
-    "Zdjecia/Pasted image 20250331105737.png",
     "Notatki do prezentacji pierwszaków.md",
-    "Zdjecia/Pasted image 20250414110838.png",
-    "Zdjecia/Pasted image 20250414110821.png",
-    "WstępDoSztucznejInteligencji/Laboratorium 3.md",
     "InżynieriaOprogramowania/Wykład/Wykład 3.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 2.md",
-    "InżynieriaOprogramowania/Wykład/Wykład 1.md",
     "InżynieriaOprogramowania/Wykład/Wykład 5.md",
     "InżynieriaOprogramowania/Wykład/Wykład 4.md",
     "Rust/Wykład 6.md",
@@ -272,10 +279,6 @@
     "InżynieriaOprogramowania/Wykład/Untitled",
     "Rust",
     "Excalidraw/Drawing 2025-03-31 10.34.52.excalidraw.md",
-    "Excalidraw",
-    "Zdjecia/Pasted image 20250331102412.png",
-    "Pasted image 20250331102247.png",
-    "Pasted image 20250328020843.png",
     "Untitled.canvas",
     "Bez nazwy.md",
     "Witaj.md",

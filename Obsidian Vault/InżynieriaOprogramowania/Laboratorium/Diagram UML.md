@@ -2,7 +2,8 @@
 class UserInterface {
 	+authenticator: Authenticator
 	+accounting: Accounting
-	+calendar: Calendar
+	+memberCalendar: CalendarMember
+	+trainerCalendar: CalendarTrainer
 	+user: User
 
 	+showMenu(): void
@@ -36,7 +37,7 @@ class User {
 	-username: String
 	-email: String
 	-password: String
-	-isTrainer: boolean
+	+isTrainer: boolean
 	+balance: String
 	+carnet: Carnet
 
@@ -82,21 +83,21 @@ interface CalendarTrainer {
 
 interface CalendarMember {
 	+registerToClass(user: User, classId: int): boolean
-	+getClasses(): ArrayList<Class>
+	+getClasses(): ArrayList<GymClass>
 	+getUserClasses(user: User): ArrayList<Class>
 }
 
 class Calendar {
-	-classes: ArrayList<Class>
+	-classes: ArrayList<GymClass>
 	-instance: Calendar
 
 	+addClass(id: int, name: String, date: LocalDate, startTime: LocalTime, duration: int, maxSpaces: int, trainer: User): void
 	+registerToClass(user: User, classID: int): boolean
 	+getClasses(): ArrayList<Class>
-	+getUserClasses(user: User): ArrayList<Class>
+	+getClasses(user: User): ArrayList<Class>
 }
 
-class Class {
+class GymClass {
 	+id: int
 	-name: String
 	-date: LocalDate
@@ -104,6 +105,7 @@ class Class {
 	-duration: int
 	-trainer: User
 	+members: ArrayList<User>
+	+maxSpaces: int
 
 	+Class(name: String, date: LocalDate, startTime: LocalTime, duration: int)
 	+getInfo(): String
@@ -124,4 +126,4 @@ Class --> User : trainer
 Class --> User : members *
 Calendar <|.. CalendarTrainer
 Calendar <|.. MemberCalendar
-``
+```
