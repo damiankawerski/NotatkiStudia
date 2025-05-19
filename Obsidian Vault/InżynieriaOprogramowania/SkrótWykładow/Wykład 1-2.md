@@ -100,6 +100,7 @@
 
 ![[Pasted image 20250518205243.png]]
 
+---
 
 # Diagramy klas
 
@@ -183,6 +184,7 @@
 
 - **Typ wyliczeniowy** i **Struktura** to specjalne typy które będą z reguły agregować z klasami do których przekazują swoją zawartość w postaci parametrów 
 ![[Pasted image 20250518221417.png]]
+---
 
 
 
