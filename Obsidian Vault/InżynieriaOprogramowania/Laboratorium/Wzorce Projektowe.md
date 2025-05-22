@@ -11,7 +11,7 @@
 
 ## Fasada
 - Jedna główna klasa która ukrywa skomplikowaną strukturę klas której używa
-
+![[Pasted image 20250522224944.png]]
 
 ---
 # Czynnościowe
