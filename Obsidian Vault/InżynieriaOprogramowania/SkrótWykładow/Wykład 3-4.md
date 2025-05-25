@@ -238,4 +238,4 @@
 ![[Pasted image 20250519161633.png]]
 
 - **Przykład diagramu wdrożenia**
-- ![[Pasted image 20250519161742.png]]
+ ![[Pasted image 20250519161742.png]]

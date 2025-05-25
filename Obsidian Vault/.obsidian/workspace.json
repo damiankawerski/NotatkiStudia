@@ -11,14 +11,10 @@
             "id": "b7fa23d270bd889a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notatki do prezentacji pierwszaków.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Notatki do prezentacji pierwszaków"
+              "title": "New tab"
             }
           },
           {
@@ -27,44 +23,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
+                "file": "InżynieriaOprogramowania/SkrótWykładow/Wykład 7-8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagram UML"
-            }
-          },
-          {
-            "id": "99ec8c34df31d1b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InżynieriaOprogramowania/Laboratorium/Wzorce Projektowe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wzorce Projektowe"
-            }
-          },
-          {
-            "id": "63a355d0b2078d7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Angielski.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Angielski"
+              "title": "Wykład 7-8"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,25 +203,27 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "99ec8c34df31d1b3",
+  "active": "0b1bf64d3f6c5c74",
   "lastOpenFiles": [
-    "Zdjecia/Pasted image 20250522224944.png",
+    "Zdjecia/Pasted image 20250525222149.png",
+    "Zdjecia/Pasted image 20250525222144.png",
+    "InżynieriaOprogramowania/SkrótWykładow/Wykład 5-6.md",
+    "InżynieriaOprogramowania/SkrótWykładow/Wykład 7-8.md",
+    "Zdjecia/Pasted image 20250525220227.png",
+    "Zdjecia/Pasted image 20250525215908.png",
+    "Zdjecia/Pasted image 20250525215443.png",
+    "Zdjecia/Pasted image 20250525215338.png",
+    "Zdjecia/Pasted image 20250525214946.png",
+    "Zdjecia/Pasted image 20250525214719.png",
+    "Zdjecia/Pasted image 20250525214544.png",
+    "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
+    "Zdjecia/Pasted image 20250519161742.png",
+    "Zdjecia/Pasted image 20250525214458.png",
     "InżynieriaOprogramowania/SkrótWykładow/Wykład 1-2.md",
     "InżynieriaOprogramowania/SkrótWykładow/Wykład 3-4.md",
-    "InżynieriaOprogramowania/Laboratorium/Wzorce Projektowe.md",
-    "Zdjecia/Pasted image 20250519161742.png",
-    "Zdjecia/Pasted image 20250519161633.png",
-    "Zdjecia/Pasted image 20250519161631.png",
-    "Zdjecia/Pasted image 20250519161607.png",
-    "Zdjecia/Pasted image 20250519161135.png",
-    "Zdjecia/Pasted image 20250519160221.png",
-    "Zdjecia/Pasted image 20250519155458.png",
-    "Zdjecia/Pasted image 20250519155413.png",
-    "Zdjecia/Pasted image 20250519154805.png",
-    "Zdjecia/Pasted image 20250519154629.png",
     "InżynieriaOprogramowania/Wykład/Wykład 11.md",
+    "InżynieriaOprogramowania/Laboratorium/Wzorce Projektowe.md",
     "InżynieriaOprogramowania/Laboratorium/Analiza.md",
-    "InżynieriaOprogramowania/Laboratorium/Diagram UML.md",
     "Notatki do prezentacji pierwszaków.md",
     "InżynieriaOprogramowania/NotatkiDoEgzaminu.md",
     "WstępDoSztucznejInteligencji/Laboratorium 3.md",
@@ -281,9 +251,7 @@
     "InżynieriaOprogramowania/Laboratorium",
     "InżynieriaOprogramowania/Wykład/Untitled",
     "Rust",
-    "Excalidraw/Drawing 2025-03-31 10.34.52.excalidraw.md",
     "Untitled.canvas",
-    "Bez nazwy.md",
     "Bez nazwy.canvas"
   ]
 }
