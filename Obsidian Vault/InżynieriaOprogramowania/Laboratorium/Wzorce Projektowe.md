@@ -10,14 +10,6 @@
 
 ![[Pasted image 20250531151956.png]]
 
-### Dekorator
-
-![[Pasted image 20250531152016.png]]
-
-
-
----
-
 ### Prototyp
 - Tworzenie nowych obiektów poprzez klonowanie juz istniejącego ( tutaj za pomocą pointerów )
 ![[Pasted image 20250531152247.png]]
@@ -38,7 +30,17 @@
 - Ma prywatny konstruktor i publiczną metode getInstance
 - ma statyczne pole instance
 
+### Dekorator
+
+![[Pasted image 20250531152016.png]]
+
+
+
 ---
+
+
+---
+
 # Czynnościowe
 ---
 

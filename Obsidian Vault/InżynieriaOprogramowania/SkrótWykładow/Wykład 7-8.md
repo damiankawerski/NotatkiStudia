@@ -137,4 +137,69 @@
 		-  Warunki początkowe - opisują zobowiązania otoczenia wobec funkcjonalności na początku jej wykonywania
 		- Warunki końcowe -  na końcu wykonywania
 		- Niezmienniki - przez cały czas wykonywania
-	- 
+
+- **Model Dynamiczny**
+	- Oprócz modelowania relacji ważne jest wymodelowanie tego jak obiekty ze sobą współpracują. 
+	- Możemy to zrobić za pomocą diagramu sekwencji które kładą nacisk na kolejność zdarzeń
+	- Lub za pomocą diagramów współpracy (komunikacji) które kładą nacisk na obrazowanie współdziałania między klasami
+
+- **Implementacja**
+	-  Każda klasa powinna mieć swój plik nagłówkowy
+	- Pliki implementacyjne (pliki fizyczne systemu) nazywamy manifestacją plików logicznych (klas)
+	- Wyraża się to za pomocą `<<manifest>>`
+	- Artefakt zawierający definicje klasy (plik nagłowkowy) oznaczamy `<<header>>`
+	- Artefakt zawierający kod źródłowy oznaczamy `<<code>>`
+
+
+--- 
+
+
+# Testowanie
+
+- **Weryfikacja oprogramowania** jest procesem sprawdzania czy wytwarzane oprogramowanie jest zgodne z wytycznymi zasad programowania. 
+- Weryfikacja dokonywana jest podczas testów systemowych pojedynczego produktu,
+- oraz testów integracyjnych, po wprowadzeniu produktu do istniejącego już i działającego środowiska informatycznego.
+
+- Weryfikacje można przeprowadzić na 2 spsoby:
+	- Statyczny - inspekcja kodu
+	- Dynamiczna - po skompilowaniu z użyciem danych testowych
+
+- **Walidacja oprogramowania** jest procesem sprawdzania czy oprogramowanie jest zgodne z oczekiwaniami użytkownika.
+- Największe znaczenie mają analiza dokumentacji oraz testy akceptacyjne przeprowadzone przez użytkownika.
+
+### Planowanie testów
+
+- Skonstruowanie odpowiedniej sekwencji (planu) testów, opartej na cyklu produkcyjnym oprogramowania, pozwala na wydajne zarządzanie czasem i zasobami ludzkimi
+- Ogólne planowanie testów należy rozpocząć już na etapie analizy wymagań
+- Szczegółowy plan testów wykonuje już po zweryfikowaniu całości dokumentacji i wyraźnym wyspecyfikowaniu elementów systemu podlegających testom.
+
+
+### Główne etapy testowania
+
+- **Analiza dokumentacji** - powinna stanowić najwcześniejszy etap kontroli jakości tworzonego oprogramowania. 
+- Wykonuje się ją przed przystąpieniem do generowania kodu.
+- Analiza dokumentacji powinna być wykonywana w oparciu o całość dokumentacji powstałej we wczesnej fazie projektu
+
+- **Testy systemowe** - Ten rodzaj testów wykonuje się po zaimplementowaniu systemu/programu, ale przed jego wdrożeniem
+- Zasadniczym celem jest sprawdzenie, czy w kodzie nie wystąpiły błędy mające wpływ na stabilność produktu
+
+- **Testy integracyjne** - umożliwiają przetestowanie każdego nowego elementu włączanego do systemu
+- Testuje się zarówno każdą istotnie nową funkcjonalność, jak i to, czy jej pojawienie się ma wpływ na wcześniejsze zachowanie się systemu traktowanego jako całość.
+
+- **Testy regresji** - Regresja jest zjawiskiem niezamierzonej utraty jakiejś funkcjonalności powstałym w nowej wersji programu
+- Testy regresji wykonuje się każdorazowo, gdy do systemu wprowadzamy nową funkcjonalność, moduł, bibliotekę lub komponent
+- Celem testów regresji jest sprawdzenie, czy dokonane zmiany nie wpłynęły negatywnie na sposób funkcjonowania systemu
+
+--- 
+
+# Metryki oprogramowania
+
+- *Metryka oprogramowania* jest miarą pewnej własności oprogramowania lub jego specyfikacji
+- Metrykę określa się jako funkcje odwzorowującą jednostkę oprogramowania w wartość liczbową
+- Ta wyliczona wartość jest interpretowalna jako stopień spełnienia pewnej własności jakości jednostki oprogramowania.
+
+- Metryki dzielą się na:
+	- Związane z analizą kodu źródłowego - statyczne
+	- badające zachowanie uruchomionego programu - dynamiczne.
+
+- 
