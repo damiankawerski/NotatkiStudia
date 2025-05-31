@@ -1,7 +1,9 @@
 # Kreacyjne
 ---
 
-
+### Metoda wytwórcza
+- Polimorficzny wzorzec który obsługuje tworzenie obiektów 
+- 
 
 
 ---

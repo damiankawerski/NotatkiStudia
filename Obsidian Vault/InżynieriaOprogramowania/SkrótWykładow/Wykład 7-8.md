@@ -130,4 +130,11 @@
 	- Polega na ograniczaniu dostępu do składowych klasy (atrybutów i operacji)
 
 - **Projektowanie według kontraktu**
-- 
+	-  Program jest poprawny jeżeli jego działanie odpowiada specyfikacji projektowej
+	- Główną cechą tej metody jest to że użytkownik jest abstrakcją
+	- Użytkownicy są zobowiązani zagwarantować że abstrakcja będzie wywoływana we właściwy sposób
+	- DBC polega na spisaniu umowy danej funkcjonalności z resztą kodu. Składa się z 3 punktów:
+		-  Warunki początkowe - opisują zobowiązania otoczenia wobec funkcjonalności na początku jej wykonywania
+		- Warunki końcowe -  na końcu wykonywania
+		- Niezmienniki - przez cały czas wykonywania
+	- 
