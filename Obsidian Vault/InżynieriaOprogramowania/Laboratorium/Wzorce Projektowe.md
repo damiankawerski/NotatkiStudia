@@ -35,11 +35,13 @@
 ![[Pasted image 20250531152016.png]]
 
 
+### Proxy
+
+![[Pasted image 20250601180342.png]]
 
 ---
 
 
----
 
 # Czynnościowe
 ---
