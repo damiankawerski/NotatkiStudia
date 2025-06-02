@@ -22,7 +22,7 @@
 ![[Pasted image 20250522224944.png]]
 ### Kompozyt
 - Chodzi o to że traktujemy zbiór elementów tak samo jak jeden element.
-![[Pasted image 20250531153756.png]]
+![[Pasted image 20250602214756.png]]
 
 ### Singleton
 - Antywzorzec 
@@ -38,6 +38,14 @@
 ### Proxy
 
 ![[Pasted image 20250601180342.png]]
+
+
+### Adapter
+
+- Przykładem jest tworzenie adaptacji sterowników do nowego systemu. 
+- Sterowniki działają tak samo ale nowy system używa innych nazw
+- Chcemy wykorzystać stare funkcje w nowym systemie więc tworzymy Adapter
+![[Pasted image 20250602215650.png]]
 
 ---
 
