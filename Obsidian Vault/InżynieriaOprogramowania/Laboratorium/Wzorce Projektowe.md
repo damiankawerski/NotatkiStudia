@@ -54,7 +54,25 @@
 - Chcemy wykorzystać stare funkcje w nowym systemie więc tworzymy Adapter
 ![[Pasted image 20250602215650.png]]
 
+
+### Bridge
+
+- Masz klasę z różnymi wariantami implementacji, np. różne sposoby rysowania figur – zamiast robić pierdyliard klas potomnych (jak w drzewie dziedziczenia), rozdzielasz **abstrakcję** i **implementację**.
+![[Pasted image 20250615150944.png]]
+
+
+### Flyweight
+- Zakłada minimalizacje zużycia pamięci
+- Dzielimy cechy między obiekty
+- Fabryka która zwraca wskaźnik zamiast nowego obiektu
+![[Pasted image 20250615154542.png]]
+
+
+
+
 ---
+
+
 
 
 
@@ -105,3 +123,37 @@
 - Interpretujemy jakieś wyrażenie 
 - Działa na zasadzie kompozytu tj jak mamy wyrazenie to Suma i Odejmowanie też powinny implementować wyrazenie i działać jako kompozyt
 ![[Pasted image 20250607144321.png]]
+
+### Strategia
+- Jeden algorytm ale różne implementacje
+- Tutaj weryfikacja przez różne klasy
+- Dobrym przykładem będzie sortowanie czasami bedziemy potrzebować merge sorta a czasami insertion sorta czy coś takiego
+
+![[Pasted image 20250611220328.png]]
+
+
+### Chain of Responsibility
+- Chodzi o to że mamy listę łańcuchów przetwarzających różne żądania
+- Jeśli pierwszy obiekt nie obsłuży to obsłuży kolejny
+- Struktura może być dynamicznie modyfikowana i rozszerzana o nowe obiekty przetwarzające żądania (także w trakcie działania programu).
+![[Pasted image 20250611222142.png]]
+
+### Metoda Szablonowa
+- Mamy 2 wersje algorytmu
+- Np sortowanie rosnąco i malejąco
+- Zamiast implementować 2 wersje algorytmu wyciągamy go do klasy nadrzędnej
+- Klasa nadrzędna posiada zarys algorytmu 
+- tworzymy dwie klasy pochodne, w których implementujemy brakujący element - jedna klasa implementuje metodę porównaj() tak, aby pozwalała na sortowanie rosnąco, a druga malejąco.
+![[Pasted image 20250611223050.png]]
+
+### Stan
+
+- Mamy klase która może zmieniać swój stan
+- Np vendingMachine - wrzucimy monete mamy stan ze jest przepelniony bedzie mial inną zawartość metod
+![[Pasted image 20250612195947.png]]
+
+
+### Wizytator
+
+- Wzorzec **Wizytator** (Visitor) to wzorzec **behawioralny** (zachowania). Umożliwia dodanie nowych operacji do obiektów bez zmieniania ich struktur (czyli klas). Działa poprzez przekazywanie wizytatora do akceptującego obiektu, który wywołuje odpowiednią metodę `visit()`.
+- Klasy, na których wizytator ma działać, posiadają metodę accept(Visitor). Działanie takiej metody sprowadza się do wywołania visitor.visit(this).
